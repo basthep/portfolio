@@ -139,7 +139,7 @@ export default function Contact() {
             <button
               type="submit"
               disabled={sent}
-              className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 font-semibold text-base-900 bg-gradient-to-r from-accent-400 to-secondary-400 rounded-xl hover:shadow-xl hover:shadow-accent-400/30 transition-all duration-300 hover:scale-[1.02] disabled:opacity-70 disabled:scale-100"
+              className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 font-semibold text-base-900 bg-linear-to-r from-accent-400 to-secondary-400 rounded-xl hover:shadow-xl hover:shadow-accent-400/30 transition-all duration-300 hover:scale-[1.02] disabled:opacity-70 disabled:scale-100"
             >
               {sent ? (
                 <>
